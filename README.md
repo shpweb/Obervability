@@ -1,7 +1,12 @@
 # Obervability
 ## Grafana 
 
-Grafana is a popular open source data visualization tool. It is another server process. It has a web interface to create custom dashboards that pull data from Prometheus (using the full power of the Prometheus query API to perform statistical transformations), display multiple metrics using graphical dashboards and can also generate alerts.
+### Visualization tools
+Observability, especially at cloud scale, can generate huge volumes of data that become difficult for humans to parse. Visualization tools help to quickly make sense of data by correlating observability data into intuitive graphic displays.  
+Grafana is a popular open source analytics platform that enables you to query, visualize, alert on and understand your metrics no matter where they are stored.[^1]
+
+**Grafana with Prometheus**  
+Grafana is a popular open source data visualization tool. It has a web interface to create custom dashboards that pull data from Prometheus (using the full power of the Prometheus query API to perform statistical transformations), display multiple metrics using graphical dashboards and can also generate alerts.
 
 Grafana provides powerful and flexible facilities to create graphs of any metric available to Prometheus. 
 
@@ -16,3 +21,8 @@ Data Source in Grafana is a place that is essentially receiving whatever metrics
 
 
 * ![This is an image](https://docs.microfocus.com/mediawiki/images/f/f7/SMA_2019.05_monitoring.png) (Ref:https://docs.microfocus.com/doc/Service_Management_Automation_-_SM/2021.05/SMAMonitoring)
+
+
+### Reference
+
+[^1]: [AWS Observability](https://aws.amazon.com/products/management-and-governance/use-cases/monitoring-and-observability/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc&blog-posts-cards.sort-by=item.additionalFields.createdDate&blog-posts-cards.sort-order=desc)
