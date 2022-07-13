@@ -13,4 +13,4 @@ Data Source in Grafana is a place that is essentially receiving whatever metrics
 
 * [Refer Grafana's Official Document for](GrafanaOffSite/README.md) [Hands-on tutorial](https://grafana.com/tutorials/grafana-fundamentals/)
 * Grafana Setup with MySql and JVM [Hands-on-tutorial](https://pexea12.github.io/posts/05-setup-prometheus-and-grafana-for-mysql-and-jvm/)''
-* ![This is an image](url)
+* ![This is an image](https://docs.microfocus.com/mediawiki/images/f/f7/SMA_2019.05_monitoring.png)
