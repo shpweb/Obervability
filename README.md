@@ -24,11 +24,11 @@ Grafana provides powerful and flexible facilities to create graphs of any metric
 ## Other study docs
 
 1. [Refer Grafana's Official Document for](GrafanaOffSite/README.md) [Hands-on tutorial](https://grafana.com/tutorials/grafana-fundamentals/)
-2. GitHub Microservices page - [[Refer this](url)] Or [[GitHub Repo]](url)
+2. GitHub Microservices page - [Refer this](https://microservices-demo.github.io/docs/quickstart.html) Or [[GitHub Repo]](https://github.com/microservices-demo/microservices-demo.github.io)
 3. Article- Grafana Setup with MySql and JVM [Hands-on-tutorial](https://pexea12.github.io/posts/05-setup-prometheus-and-grafana-for-mysql-and-jvm/)
 4. ![This is an image](https://docs.microfocus.com/mediawiki/images/f/f7/SMA_2019.05_monitoring.png) (Ref:https://docs.microfocus.com/doc/Service_Management_Automation_-_SM/2021.05/SMAMonitoring)
-5. GitHub repo - [Srinisbook](url)
-6. Other Courses on [Udemy](url) or acloudguru (e.g. Prometheus DeepDive)
+5. GitHub repo - [Srinisbook](https://github.com/srinisbook/Prometheus-grafana)
+6. Other Courses on [Udemy](https://thoughtworks.udemy.com/organization/search/?src=ukw&q=grafana) or acloudguru (e.g. Prometheus DeepDive)
 
 ### Reference
 
