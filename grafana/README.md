@@ -10,6 +10,7 @@ Grafana is a popular open source data visualization tool. It has a web interface
 
 Grafana provides powerful and flexible facilities to create graphs of any metric available to Prometheus. 
 
+**Why we are using Grafana when we have Prometheus Web UI?**
 * We're going to be using Grafana and not just the native web UI with Prometheus because you'll see that, as you expand out your monitoring platform, you're often not just pulling in data from Prometheus itself. Maybe you have EC2 CloudWatch going on because you're using AWS or maybe you simply have an ELK Stack to process your logs and you want to include that in your visualizations. 
   - #### Grafana Install
   - #### Add a Data Source
@@ -29,6 +30,10 @@ Grafana provides powerful and flexible facilities to create graphs of any metric
 4. ![This is an image](https://docs.microfocus.com/mediawiki/images/f/f7/SMA_2019.05_monitoring.png) (Ref:https://docs.microfocus.com/doc/Service_Management_Automation_-_SM/2021.05/SMAMonitoring)
 5. GitHub repo - [Srinisbook](https://github.com/srinisbook/Prometheus-grafana)
 6. Other Courses on [Udemy](https://thoughtworks.udemy.com/organization/search/?src=ukw&q=grafana) or acloudguru (e.g. Prometheus DeepDive)
+
+### FAQs
+1. 
+Ans - 
 
 ### Reference
 
