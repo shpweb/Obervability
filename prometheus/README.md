@@ -19,3 +19,10 @@
   - CPU Usage
   - Memory Usage
   - Disk I/O
+
+**Prometheus Metric Types**
+  - COUNTER, how many times X happended? 
+    - Cumulative metric
+  - GAUGE, what is current value of X now? 
+    - Up or Down 
+  - HISTOGRAM, low long & how big?
