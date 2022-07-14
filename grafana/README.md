@@ -22,6 +22,9 @@ Grafana provides powerful and flexible facilities to create graphs of any metric
 
 ![End State Goals](https://user-images.githubusercontent.com/92606493/178727627-6a557f25-129d-4b7c-92d6-e3d8399dfe7b.png)
 
+![Alertmanager Setup](https://user-images.githubusercontent.com/92606493/178956373-5295eb9d-a58f-4c93-ab67-d20f63c449bd.png)
+
+
 ## Other study docs
 
 1. [Refer Grafana's Official Document for](GrafanaOffSite/README.md) [Hands-on tutorial](https://grafana.com/tutorials/grafana-fundamentals/)
