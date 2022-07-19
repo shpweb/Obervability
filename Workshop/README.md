@@ -1,4 +1,4 @@
-**This is for Obervability and Monitoring Workshoop. **
+**This is for Obervability and Monitoring Workshop. **
 
 **Plan**: 
 Take a complex multi-container application and prepare it with the setup and used case so that the candidate (workshop attendee) can hands-on all the tools like EFK stack, prometheus, grafana, Istio, etc. 
@@ -16,8 +16,10 @@ This GitHub project implement the Microservice based application (Online Boutiqu
 5. Test online boutique URL with external frontend IP (as per the above GitHub repo step)
 6. Allow Firewall rule for one of the nodes for SSH allow (for testing allowed all traffic for a node) 
 7. SSH via console or browser to that one node
-8. Install and configure prometheus service on that node. (Refer ./prometheus.md)
+8. Install and configure prometheus server as per the requirement. (Refer ./prometheus.md)
 9. Test prometheus URL with that node's public IP:9090
-10. Install and configure grafana service on the same node (rfere ./grafana.md)
+10. Install and configure grafana service on the same node as preometheus (rfere ./grafana.md)
 11. Test Grafana URL with that node's public IP:3300
-
+12. Setup with Istio
+13. Tracing Setup (Jeager) 
+14. Hands-on lab demo
