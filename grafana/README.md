@@ -24,6 +24,9 @@ Grafana provides powerful and flexible facilities to create graphs of any metric
 
 ![Alertmanager Setup](https://user-images.githubusercontent.com/92606493/178956373-5295eb9d-a58f-4c93-ab67-d20f63c449bd.png)
 
+![Service Discovery](https://user-images.githubusercontent.com/92606493/179978596-e274cb20-c5d7-4ec6-b371-262f8544c953.jpeg)
+
+Prometheus Config file for Target / job_name: /etc/prometheus/prometheus.yml
 
 ## Other study docs
 
