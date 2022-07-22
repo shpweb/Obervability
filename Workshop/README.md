@@ -14,13 +14,16 @@ This GitHub project implement the Microservice based application (Online Boutiqu
 3. As per the GitHub repo, implement steps to create online boutique app. 
 4. It will create a 4 Node GKE Cluster with 11 microservices. (however we can modify to differenct instance type and also number of nodes to 3 as GCP has limitations with quota - 8 vCPU per zone and 4 Public IPs only allowed.)
 5. Test online boutique URL with external frontend IP (as per the above GitHub repo step)
-6. Create a separate new VM for Prometheus & Grafana.
-7. Install and configure prometheus server as per the requirement. (Refer ./prometheus.md) // Test prometheus URL with that node's public IP:9090
-8. Install and configure grafana service on the same node as preometheus (rfere ./grafana.md) // Test Grafana URL with that node's public IP:3300
-9. Configure Prom. and Grafana dashboard
-10. Have some sample monitor and sample dashboard
-11. Have real time monitor metric from the online boutique app and visualization on dashboard
-12. Repeat above step 6 to 12 for cluster setup for prom. and grafana 
-13. Setup with Istio
-14. Tracing Setup (Jeager) 
-15. Hands-on lab demo
+6. Prometheus & Grafana Setup
+   6.1 Beginner: Create a separate new VM for Prometheus & Grafana.
+       6.1.1 Install and configure prometheus server as per the requirement. (Refer ./prometheus.md) // Test prometheus URL with that node's public IP:9090
+       6.1.2 Install and configure grafana service on the same node as preometheus (rfere ./grafana.md) // Test Grafana URL with that node's public IP:3300
+       6.1.3 Configure Prom. and Grafana dashboard
+       6.1.4 Have some sample monitor and sample dashboard
+   6.2 Advanced: Run Prometheus & Grafana on K8S cluster created on above nodes (with separate namespace)
+          Reference: [GITHUB: prometheus_operator/kube_prometheus](https://github.com/prometheus-operator/kube-prometheus)
+       6.2.1 Configure Prom. and Grafana dashboard
+       6.2.2 Have real time monitor metric from the online boutique app
+ 7.Setup with Istio
+ 8. Tracing Setup (Jeager) 
+ 9. Hands-on lab demo
