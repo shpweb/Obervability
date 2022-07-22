@@ -16,13 +16,14 @@ This GitHub project implement the Microservice based application (Online Boutiqu
 5. Test online boutique URL with external frontend IP (as per the above GitHub repo step)
 6. Prometheus & Grafana Setup  
    ***Beginner: Create a separate new VM for Prometheus & Grafana.***
-      - Install and configure prometheus server as per the requirement. (Refer ./prometheus.md) // Test prometheus URL with that node's public IP:9090
-      - Install and configure grafana service on the same node as preometheus (rfere ./grafana.md) // Test Grafana URL with that node's public IP:3300
+      - [Install and configure prometheus server as per the requirement](./prometheus.md) // Test prometheus URL with that node's public IP:9090
+      - [Install and configure grafana service on the same node as preometheus](./grafana.md) // Test Grafana URL with that node's public IP:3300
       - Configure Prom. and Grafana dashboard
       - Have some sample monitor and sample dashboard  
    
    ***Advanced: Run Prometheus & Grafana on K8S cluster created on above nodes (with separate namespace)***
           *Reference: [GITHUB: prometheus_operator/kube_prometheus](https://github.com/prometheus-operator/kube-prometheus)*  
+      - Install node_exporter and cAdvisor on k8s nodes
       - Configure Prom. and Grafana dashboard
       - Have real time monitor metric from the online boutique app
  7.Setup with Istio
