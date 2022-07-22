@@ -29,3 +29,8 @@ This GitHub project implement the Microservice based application (Online Boutiqu
  7.Setup with Istio
  8. Tracing Setup (Jeager) 
  9. Hands-on lab demo
+ 
+ ### Reference
+
+- [GitHub: helm-chart for Kube_Prometheus_Grafna Stack](https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack)
+- [acloudguru course: DevOps Monitoring DeepDive](https://learn.acloud.guru/course/852a204f-8dff-4196-bcf8-922a25cc5a64/learn/2e97da96-371f-4e14-ac2a-3ef64c5db272/b214237b-8d34-445f-b8f1-a6e2c2189d15/watch)
