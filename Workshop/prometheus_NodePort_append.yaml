@@ -1,0 +1,25 @@
+#### Below yaml config to appended in manifests/prometheus_services.yaml in [kube-prometheus repo](https://github.com/prometheus-operator/kube-prometheus)
+
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: prometheus-nodeport
+  namespace: monitoring
+  annotations:
+    prometheus.io/scrape: 'true'
+    prometheus.io/port:   '9090'
+spec:
+  ports:
+  - name: http
+    port: 8080
+    targetPort: 9090
+    nodePort: 30010
+  selector:
+    app.kubernetes.io/component: prometheus
+    app.kubernetes.io/instance: k8s
+    app.kubernetes.io/name: prometheus
+    app.kubernetes.io/part-of: kube-prometheus
+  sessionAffinity: None
+  type: NodePort
