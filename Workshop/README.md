@@ -27,8 +27,8 @@ This GitHub project implement the Microservice based application (Online Boutiqu
           *Reference: [GITHUB: prometheus_operator/kube_prometheus](https://github.com/prometheus-operator/kube-prometheus)*  
       - The same cluster (k8s nodes) to be used for deploying prometheus and grafana manifest as cluster deployment. (Ref: https://computingforgeeks.com/setup-prometheus-and-grafana-on-kubernetes/)
       - open google cloudshell editor and clone the repo 'kube-prometheus'
-      - For publishing Prometheus dashboard on external, we have to add block of NodePort (from [prometheus_NodePort_append.yaml](./prometheus_NodePort_append.yaml) in prometheus_service.yaml[^1]
-      - For publishing Grafana dashboard on external, we have to add block of NodePort (from [grafana_NodePort_append.yaml](./grafana_NodePort_append.yaml) in grafana_service.yaml
+      - For publishing Prometheus dashboard on external, we have to add block of NodePort (from [prometheus_NodePort_append.yaml](./prometheus_NodePort_append.yaml) in prometheus_service.yaml[^1][^2]
+      - For publishing Grafana dashboard on external, we have to add block of NodePort (from [grafana_NodePort_append.yaml](./grafana_NodePort_append.yaml) in grafana_service.yaml[^2]
       - Once NodePort updated in prometheus and grafana, their respective dashboards can be available on all the nodes with published port.
       - Configure Prom. and Grafana dashboard
       - Have real time monitor metric from the online boutique app
@@ -43,3 +43,4 @@ This GitHub project implement the Microservice based application (Online Boutiqu
  
  ### Reference
 [^1]:[Setup Prometheus Monitoring on Kubernetes](https://devopscube.com/setup-prometheus-monitoring-on-kubernetes/)
+[^2]:[Deploy Prometheus and Grafana on Kubernetes Cluster](https://medium.com/@gurpreets0610/deploy-prometheus-grafana-on-kubernetes-cluster-e8395cc16f91#:~:text=Prometheus%20has%20a%20basic%20expression,to%20monitor%20the%20Kubernetes%20cluster.)
