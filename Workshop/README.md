@@ -27,8 +27,9 @@ This GitHub project implement the Microservice based application (Online Boutiqu
           *Reference: [GITHUB: prometheus_operator/kube_prometheus](https://github.com/prometheus-operator/kube-prometheus)*  
       - The same cluster (k8s nodes) to be used for deploying prometheus and grafana manifest as cluster deployment. (Ref: https://computingforgeeks.com/setup-prometheus-and-grafana-on-kubernetes/)
       - open google cloudshell editor and clone the repo 'kube-prometheus'
-      - for prometheus publish as NodePort refer (./prometheus_NodePort_append.yaml)
+      - For publishing Prometheus dashboard on external, we have to add NodePort in prometheus_service.yaml [refer](./prometheus_NodePort_append.yaml)
       - for grafana publish as NodePort - 
+      - Once NodePort updated in prometheus and grafana, their respective dashboards can be available on all the nodes with published port.
       - Configure Prom. and Grafana dashboard
       - Have real time monitor metric from the online boutique app
  7.Setup with Istio
