@@ -20,10 +20,15 @@ This GitHub project implement the Microservice based application (Online Boutiqu
       - [Install and configure grafana service on the same node as preometheus](./grafana.md) // Test Grafana URL with that node's public IP:3300
       - Configure Prom. and Grafana dashboard
       - Have some sample monitor and sample dashboard  
+      - Install node_exporter and cAdvisor on k8s nodes (to get metrics from the k8s noded and respective pods) 
+      - configure /etc/prometheus/prometheus.yaml file to add new job_name and statics_config for node_exporter, cAdvisor, alert_manager, etc (whichever applicable)
    
    ***Advanced: Run Prometheus & Grafana on K8S cluster created on above nodes (with separate namespace)***
           *Reference: [GITHUB: prometheus_operator/kube_prometheus](https://github.com/prometheus-operator/kube-prometheus)*  
-      - Install node_exporter and cAdvisor on k8s nodes
+      - The same cluster (k8s nodes) to be used for deploying prometheus and grafana manifest as cluster deployment. (Ref: https://computingforgeeks.com/setup-prometheus-and-grafana-on-kubernetes/)
+      - open google cloudshell editor and clone the repo 'kube-prometheus'
+      - for prometheus publish as NodePort - 
+      - for grafana publish as NodePort - 
       - Configure Prom. and Grafana dashboard
       - Have real time monitor metric from the online boutique app
  7.Setup with Istio
