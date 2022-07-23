@@ -27,16 +27,19 @@ This GitHub project implement the Microservice based application (Online Boutiqu
           *Reference: [GITHUB: prometheus_operator/kube_prometheus](https://github.com/prometheus-operator/kube-prometheus)*  
       - The same cluster (k8s nodes) to be used for deploying prometheus and grafana manifest as cluster deployment. (Ref: https://computingforgeeks.com/setup-prometheus-and-grafana-on-kubernetes/)
       - open google cloudshell editor and clone the repo 'kube-prometheus'
-      - For publishing Prometheus dashboard on external, we have to add NodePort in prometheus_service.yaml [refer](./prometheus_NodePort_append.yaml)
-      - for grafana publish as NodePort - 
+      - For publishing Prometheus dashboard on external, we have to add block of NodePort (from [prometheus_NodePort_append.yaml](./prometheus_NodePort_append.yaml) in prometheus_service.yaml[^1]
+      - For publishing Grafana dashboard on external, we have to add block of NodePort (from [grafana_NodePort_append.yaml](./grafana_NodePort_append.yaml) in grafana_service.yaml
       - Once NodePort updated in prometheus and grafana, their respective dashboards can be available on all the nodes with published port.
       - Configure Prom. and Grafana dashboard
       - Have real time monitor metric from the online boutique app
  7.Setup with Istio
  8. Tracing Setup (Jeager) 
  9. Hands-on lab demo
- 
- ### Reference
 
+### Further Study
 - [GitHub: helm-chart for Kube_Prometheus_Grafna Stack](https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack)
 - [acloudguru course: DevOps Monitoring DeepDive](https://learn.acloud.guru/course/852a204f-8dff-4196-bcf8-922a25cc5a64/learn/2e97da96-371f-4e14-ac2a-3ef64c5db272/b214237b-8d34-445f-b8f1-a6e2c2189d15/watch)
+
+ 
+ ### Reference
+[^1]:[Setup Prometheus Monitoring on Kubernetes](https://devopscube.com/setup-prometheus-monitoring-on-kubernetes/)
