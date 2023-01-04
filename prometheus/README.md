@@ -26,3 +26,17 @@
   - GAUGE, what is current value of X now? 
     - Up or Down 
   - HISTOGRAM, low long & how big?
+
+**Prometheus Exporter**
+
+****What Is a Prometheus Exporter?****  
+A Prometheus exporter aggregates and imports data from a non-Prometheus to a Prometheus system. An exporter is considered essential in any cloud-native ecosystem that includes applications that don’t expose Prometheus-supported metrics by default. A Prometheus exporter acts as a proxy between such an applications and the Prometheus server. Exporters use a simple, text-based, key-value format to scrape and expose metrics over time, via HTTP, for aggregation and decision-making.
+
+- ****How Prometheus Exporters Work****  
+  Prometheus implements the HTTP pull model to gather metrics from client components. For event-based monitoring, the Prometheus client relies on an exporter that acts as an abstraction layer between the application and the Prometheus server.
+
+  A Prometheus exporter’s working mechanism typically involves the following:
+  - Providing a target endpoint that the Prometheus server periodically queries for metrics.
+  - Extracting metrics data from a non-Prometheus application.
+  - Transforming captured data into a Prometheus ingestible format by leveraging client libraries.
+  - Initiating a web server to display metrics through a URL.
