@@ -1,4 +1,4 @@
-### Prometheus Reference Architecture: 
+### Prometheus Reference Architecture:[^3] 
 <img src="https://user-images.githubusercontent.com/92606493/178771795-264ccfcc-904b-44c2-90b8-f7d2d7c8d4c3.png" Width="600" Height="350">
 
 **Monitoring Setup**
@@ -27,9 +27,9 @@
     - Up or Down 
   - HISTOGRAM, low long & how big?
 
-**Prometheus Exporter**
+**Prometheus Exporter**[^1]
 
-****What Is a Prometheus Exporter?****  
+****What Is a Prometheus Exporter?****[^2]  
 A Prometheus exporter aggregates and imports data from a non-Prometheus to a Prometheus system. An exporter is considered essential in any cloud-native ecosystem that includes applications that don’t expose Prometheus-supported metrics by default. A Prometheus exporter acts as a proxy between such an applications and the Prometheus server. Exporters use a simple, text-based, key-value format to scrape and expose metrics over time, via HTTP, for aggregation and decision-making.
 
 - ****How Prometheus Exporters Work****  
