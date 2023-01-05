@@ -1,5 +1,5 @@
 ### Prometheus Reference Architecture:[^3] 
-<img src="https://user-images.githubusercontent.com/92606493/178771795-264ccfcc-904b-44c2-90b8-f7d2d7c8d4c3.png" Width="600" Height="350">
+<img src="https://user-images.githubusercontent.com/92606493/178771795-264ccfcc-904b-44c2-90b8-f7d2d7c8d4c3.png" Width="750" Height="450">
 
 **Monitoring Setup**
   - Collector (Self/ Exporter)  
