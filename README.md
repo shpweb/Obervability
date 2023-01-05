@@ -43,5 +43,20 @@ There are a number of modern tools to make systems observable. While identifying
 -   Tools must provide near real-time visibility
 -   Must be able to guide users to the problem area with suitable, adequate end-to-end context.
 
-## [Prometheus](prometheus/README.md)
+## [Prometheus](prometheus/README.md)  
+[Visit [prometheus.io](https://prometheus.io/) for the full documentation, examples and guides.]
+
+**Prometheus**, a Cloud Native Computing Foundation project, is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts when specified conditions are observed.
+
+***The features that distinguish Prometheus from other metrics and monitoring systems are:***
+
+A multi-dimensional data model (time series defined by metric name and set of key/value dimensions)
+PromQL, a powerful and flexible query language to leverage this dimensionality
+No dependency on distributed storage; single server nodes are autonomous
+An HTTP pull model for time series collection
+Pushing time series is supported via an intermediary gateway for batch jobs
+Targets are discovered via service discovery or static configuration
+Multiple modes of graphing and dashboarding support
+Support for hierarchical and horizontal federation
+
 ## [Grafana](grafana/README.md)
