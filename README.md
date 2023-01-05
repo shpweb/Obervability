@@ -1,7 +1,7 @@
 # Observability
-## [What is Observability?](https://github.com/shpweb/Obervability#what-is-observability-1)
-## [Prometheus](https://github.com/shpweb/Obervability#prometheus-1)
-## [Grafana](https://github.com/shpweb/Obervability#grafana-1)
+### [What is Observability?](https://github.com/shpweb/Obervability#what-is-observability-1)
+### [Prometheus](https://github.com/shpweb/Obervability#prometheus-1)
+### [Grafana](https://github.com/shpweb/Obervability#grafana-1)
 
 ## What is Observability?
 Observability is the ability to measure a system’s current state based on the data it generates, namely logs, metrics, and traces.
