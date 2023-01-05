@@ -1,6 +1,7 @@
 # Observability
-## What is Observability?
+## [What is Observability?](https://github.com/shpweb/Obervability#what-is-observability)
 
+## What is Observability?
 Observability is the ability to measure a system’s current state based on the data it generates, namely logs, metrics, and traces.
 
 
