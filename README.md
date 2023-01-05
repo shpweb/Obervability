@@ -50,13 +50,13 @@ There are a number of modern tools to make systems observable. While identifying
 
 ***The features that distinguish Prometheus from other metrics and monitoring systems are:***
 
-A multi-dimensional data model (time series defined by metric name and set of key/value dimensions)
-PromQL, a powerful and flexible query language to leverage this dimensionality
-No dependency on distributed storage; single server nodes are autonomous
-An HTTP pull model for time series collection
-Pushing time series is supported via an intermediary gateway for batch jobs
-Targets are discovered via service discovery or static configuration
-Multiple modes of graphing and dashboarding support
-Support for hierarchical and horizontal federation
+A **multi-dimensional data model** (time series defined by metric name and set of key/value dimensions)  
+PromQL, **a powerful and flexible query language** to leverage this dimensionality  
+No dependency on distributed storage; **single server nodes are autonomous**  
+**An HTTP pull model** for time series collection  
+**Pushing time series** is supported via an intermediary gateway for batch jobs  
+Targets are discovered via **service discovery or static configuration**  
+Multiple modes of graphing and **dashboarding** support  
+Support for hierarchical and horizontal **federation**  
 
 ## [Grafana](grafana/README.md)
