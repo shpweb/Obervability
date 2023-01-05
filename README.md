@@ -81,11 +81,12 @@ A Prometheus exporter aggregates and imports data from a non-Prometheus to a Pro
   - Transforming captured data into a Prometheus ingestible format by leveraging client libraries.
   - Initiating a web server to display metrics through a URL.
 
+###### [Back to Top](https://github.com/shpweb/Obervability#observability)
+
+## [Grafana](grafana/README.md)
+
+
 #### References:
 [^1]:[Prometheus Docs: Exporter](https://prometheus.io/docs/instrumenting/exporters/)  
 [^2]:[Prometheus Exporter](https://www.containiq.com/post/prometheus-exporters)
 [^3]:[Prometheus GitHub Repo](https://github.com/prometheus) 
-
-###### [Back to Top](https://github.com/shpweb/Obervability#observability)
-
-## [Grafana](grafana/README.md)
